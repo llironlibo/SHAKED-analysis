@@ -1,0 +1,28 @@
+# --- Controlled-access data: NEVER commit (see the article Data Availability statement) ---
+data/*
+!data/README.md
+*.xlsx
+*.xls
+*.csv
+
+# --- Generated analysis outputs (tables + figures are reproduced by run_all.py) ---
+results/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.egg-info/
+.venv/
+venv/
+
+# --- R ---
+.Rhistory
+.RData
+.Rproj.user/
+
+# --- OS / editors ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

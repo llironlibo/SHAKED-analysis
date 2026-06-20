@@ -1,0 +1,17 @@
+# Python dependencies for the SHAKED analysis pipeline.
+# Install with:  pip install -r requirements.txt
+# Versions are intentionally unpinned; any recent release of each library
+# should reproduce the reported results.
+
+pandas
+numpy
+scipy
+statsmodels
+scikit-learn
+lifelines
+linearmodels
+matplotlib
+
+# Excel engine used by 01_data_preparation.py (pandas.read_excel on .xlsx).
+# Only needed if you re-run the data-preparation stage from the raw exports.
+openpyxl
